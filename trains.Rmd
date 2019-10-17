@@ -1,0 +1,17 @@
+---
+title: "rmarkdown"
+author: "Daniel Shapiro"
+date: "10/17/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(fs)
+```
+
+```{r}
+trains <- read_csv("trains.csv")
+```
+
